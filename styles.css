@@ -1,0 +1,85 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('foodbg.jpg'); 
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    text-align: center;
+    padding: 50px;
+    background-color: rgba(255, 255, 255, 0.8); 
+    border-radius: 10px;
+    margin: 0 auto;
+    width: 70%;
+  }
+  
+  h1 {
+    font-size: 3rem;
+    font-weight: bold;
+  }
+  
+  .search-container {
+    margin: 20px 0;
+  }
+  
+  input {
+    padding: 10px;
+    font-size: 1.2rem;
+    width: 300px;
+    border: 2px solid #333;
+    border-radius: 5px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    background-color: #ff6f61;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #ff3f30;
+  }
+  
+  #recipe-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+  }
+  
+  .recipe-card {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .recipe-card h2 {
+    font-weight: bold;
+    font-size: 1.5rem;
+  }
+  
+  .recipe-card img {
+    width: 100%;
+    border-radius: 10px;
+  }
+  
+  .recipe-card p {
+    font-size: 1rem;
+    margin: 10px 0;
+  }
+  
+  .recipe-card ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .recipe-card li {
+    font-weight: bold; 
+  }
+  
